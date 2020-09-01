@@ -1,0 +1,10 @@
+- title: "新建项目计划"
+  url: http://192.168.100.222:8081/plan-manager/plan/planAddOrUpdate
+  header: {"Content-Type": 'application/json'}
+- title: "查看计划详情"
+  url: http://192.168.100.222:8081/plan-manager/plan/queryPlanDetailById
+  header: {"Content-Type": 'application/json'}
+- title: "查看计划监控详情"
+  url: http://192.168.100.222:8081/plan-manager/plan/planDetailMonitor
+  header: {"Content-Type": 'application/json'}
+

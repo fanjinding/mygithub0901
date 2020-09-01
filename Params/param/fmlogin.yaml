@@ -1,0 +1,6 @@
+- title: "登录"
+  url: http://192.168.100.222:8081/EMS_SaaS_Web/Spring/MVC/entrance/unifier/loginUserService
+  data: {"password": "qwe123",
+         "loginDevice": "PC",
+         "loginName": "fjd"}
+  header: {"Content-Type": 'application/x-www-form-urlencoded'}

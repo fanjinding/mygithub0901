@@ -1,0 +1,6 @@
+- title: "查询人员数量"
+  url: http://192.168.100.222:8081/saas/restPersonService/countPersonsForPersonService
+  data: {"user_id": "58a612614e1f430bb35bef96a90b77b8",
+         "pd": "200820e3227815ed1756a6b531e7e0d2",
+         "project_id": "Pj1101081201"}
+  header: {"Content-Type": 'application/json'}

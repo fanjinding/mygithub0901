@@ -1,0 +1,18 @@
+- title: "登录"
+  url: http://192.168.100.222:8081/EMS_SaaS_Web/Spring/MVC/entrance/unifier/loginUserService
+  data: {"password": "qwe123",
+         "loginDevice": "PC",
+         "loginName": "fjd"}
+  header: {"Content-Type": 'application/x-www-form-urlencoded'}
+- title: "查询人员列表"
+  url: http://192.168.100.222:8081/saas/restPersonService/queryPersonList
+  data: {"user_id": "58a612614e1f430bb35bef96a90b77b8",
+         "pd": "200820e3227815ed1756a6b531e7e0d2",
+         "project_id": "Pj1101081201"}
+  header: {"Content-Type": 'application/json'}
+- title: "查询人员数量"
+  url: http://192.168.100.222:8081/saas/restPersonService/countPersonsForPersonService
+  data: {"user_id": "58a612614e1f430bb35bef96a90b77b8",
+         "pd": "200820e3227815ed1756a6b531e7e0d2",
+         "project_id": "Pj1101081201"}
+  header: {"Content-Type": 'application/json'}

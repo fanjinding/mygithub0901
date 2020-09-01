@@ -1,0 +1,3 @@
+- title: "查询下一次发单时间"
+  url: http://192.168.100.222:8081/plan-manager/plan/getLatestTime
+  header: {"Content-Type": 'application/json'}
